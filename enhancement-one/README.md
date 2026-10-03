@@ -13,6 +13,6 @@ This enhancement demonstrates improvements in software design, usability, CRUD f
 
 ## Project Files
 
-- Original Artifact
-- Enhanced Artifact
-- Enhancement Narrative
+- [Original CS 340 Artifact](original/)
+- [Enhanced CS 340 Artifact](enhanced/)
+- [Enhancement One Narrative](CS%20499%20Narrative%20Software%20Design%20%26%20Engineering.docx)
