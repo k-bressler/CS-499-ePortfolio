@@ -5,74 +5,277 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS 499 ePortfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #25313c;
+            line-height: 1.7;
+        }
+
+        /* Header */
+        header {
+            background-color: #17324d;
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 8px 0 0;
+            font-size: 1.1rem;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #10263b;
+            text-align: center;
+            padding: 14px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main page */
+        main {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: white;
+            margin-bottom: 35px;
+            padding: 35px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: #17324d;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #365b7d;
+        }
+
+        /* Video */
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 850px;
+            margin: 25px auto 0;
+            aspect-ratio: 16 / 9;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 8px;
+        }
+
+        /* Artifact buttons */
+        .artifact-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #17324d;
+            color: white;
+            text-decoration: none;
+            padding: 11px 18px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+
+        .button:hover {
+            background-color: #365b7d;
+        }
+
+        /* Future enhancement placeholders */
+        .coming-soon {
+            color: #687684;
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #17324d;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            margin-top: 50px;
+        }
+
+        /* Mobile layout */
+        @media (max-width: 700px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            section {
+                padding: 25px;
+            }
+
+            .artifact-links {
+                flex-direction: column;
+            }
+
+            .button {
+                text-align: center;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>Computer Science 499 ePortfolio</h1>
+    <header id="home">
+        <h1>Computer Science 499 ePortfolio</h1>
+        <p><strong>Kaitlin Bressler</strong></p>
+        <p>Computer Science Capstone</p>
+    </header>
 
-    <hr>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#code-review">Code Review</a>
+        <a href="#enhancement-one">Enhancement One</a>
+        <a href="#enhancement-two">Enhancement Two</a>
+        <a href="#enhancement-three">Enhancement Three</a>
+    </nav>
 
-    <h2>Code Review</h2>
+    <main>
 
-    <p>
-        The following code review examines my original CS 340 Animal Shelter
-        Dashboard and identifies opportunities for improvement in software
-        engineering and design, algorithms and data structures, and databases.
-        The review also discusses the enhancements planned for the final
-        ePortfolio.
-    </p>
+        <!-- Code Review -->
+        <section id="code-review">
+            <h2>Code Review</h2>
 
-    <iframe
-        width="800"
-        height="450"
-        src="https://www.youtube.com/embed/IB9abakQKF0"
-        title="CS 499 Code Review"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-    </iframe>
+            <p>
+                The following code review examines my original CS 340 Animal
+                Shelter Dashboard and identifies opportunities for improvement
+                in software engineering and design, algorithms and data
+                structures, and databases. The review also discusses the
+                enhancements planned for the final ePortfolio.
+            </p>
 
-<hr>
+            <div class="video-container">
+                <iframe
+                    src="https://www.youtube.com/embed/IB9abakQKF0"
+                    title="CS 499 Code Review"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
 
-<section>
-    <h2>Enhancement One: Software Engineering and Design</h2>
+        <!-- Enhancement One -->
+        <section id="enhancement-one">
 
-    <h3>CS 340 – Animal Shelter Dashboard</h3>
+            <h2>Enhancement One: Software Engineering and Design</h2>
 
-    <p>
-        The artifact selected for this enhancement is an Animal Shelter Dashboard
-        originally developed in CS 340. The application uses Python, Dash, and
-        MongoDB to display and manage animal shelter data.
-    </p>
+            <h3>CS 340 – Animal Shelter Dashboard</h3>
 
-    <p>
-        For the Software Engineering and Design enhancement, I expanded the
-        original dashboard by creating an animal management interface. The
-        enhanced application allows users to add, edit, view, and delete animal
-        records through the user interface. These improvements demonstrate
-        software design, CRUD functionality, input validation, error handling,
-        and integration between the application and MongoDB database.
-    </p>
+            <p>
+                The artifact selected for this enhancement is an Animal Shelter
+                Dashboard originally developed in CS 340. The application uses
+                Python, Dash, and MongoDB to display and manage animal shelter
+                data.
+            </p>
 
-    <h3>Artifact Files</h3>
+            <p>
+                For the Software Engineering and Design enhancement, I expanded
+                the original dashboard by creating an animal management
+                interface. The enhanced application allows users to add, edit,
+                view, and delete animal records through the user interface.
+                These improvements demonstrate software design, CRUD
+                functionality, input validation, error handling, and
+                integration between the application and MongoDB database.
+            </p>
 
-    <p>
-        <a href="https://github.com/k-bressler/CS-499-ePortfolio/tree/main/enhancement-one/original"
-   target="_blank">
-    View Original Artifact
-</a>
-        |
-        <a href="https://github.com/k-bressler/CS-499-ePortfolio/tree/main/enhancement-one/enhanced"
-   target="_blank">
-    View Enhanced Artifact
-</a>
-        |
-        <a href="enhancement-one/CS%20499%20Narrative%20Software%20Design%20%26%20Engineering.docx">
-            View Enhancement Narrative
-        </a>
-    </p>
-</section>    
+            <h3>Artifact Files</h3>
+
+            <div class="artifact-links">
+
+                <a class="button"
+                   href="https://github.com/k-bressler/CS-499-ePortfolio/tree/main/enhancement-one/original"
+                   target="_blank">
+                    Original Artifact
+                </a>
+
+                <a class="button"
+                   href="https://github.com/k-bressler/CS-499-ePortfolio/tree/main/enhancement-one/enhanced"
+                   target="_blank">
+                    Enhanced Artifact
+                </a>
+
+                <a class="button"
+                   href="enhancement-one/CS%20499%20Narrative%20Software%20Design%20%26%20Engineering.docx">
+                    Enhancement Narrative
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- Enhancement Two -->
+        <section id="enhancement-two">
+            <h2>Enhancement Two: Algorithms and Data Structures</h2>
+            <p class="coming-soon">
+                Enhancement Two will be added to the ePortfolio upon completion.
+            </p>
+        </section>
+
+        <!-- Enhancement Three -->
+        <section id="enhancement-three">
+            <h2>Enhancement Three: Databases</h2>
+            <p class="coming-soon">
+                Enhancement Three will be added to the ePortfolio upon completion.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Kaitlin Bressler | CS 499 Computer Science ePortfolio</p>
+    </footer>
 
 </body>
 
