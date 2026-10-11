@@ -13,6 +13,6 @@ These improvements demonstrate the application of algorithms, dynamic database q
 
 ## Project Files
 
-- Original Artifact
-- Enhanced Artifact
-- Enhancement Narrative
+- [Original CS 340 Artifact](https://github.com/k-bressler/CS-499-ePortfolio/tree/main/enhancement-one/original)
+- [Enhanced CS 340 Artifact](enhanced/)
+- [Enhancement Two Narrative](CS%20499%20Narrative%20Algorithms%20and%20Data%20Structure.docx)
