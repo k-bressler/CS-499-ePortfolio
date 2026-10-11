@@ -13,7 +13,7 @@ Additional tests were conducted to verify that valid database operations succeed
 
 ## Project Files
 
-- Original Artifact
-- Enhanced Artifact
-- Enhancement Three Narrative
-- Database Testing Results
+- [Original CS 340 Artifact](https://github.com/k-bressler/CS-499-ePortfolio/tree/main/enhancement-one/original)
+- [Enhanced CS 340 Artifact](enhanced/)
+- [Enhancement Three Narrative](CS%20499%20Narrative%20Databases.docx)
+- [Database Testing Results](testing/)
