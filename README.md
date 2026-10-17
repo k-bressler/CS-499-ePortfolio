@@ -8,11 +8,11 @@
 
 ## About the Portfolio
 
-This repository contains my CS-499 Computer Science Capstone ePortfolio, developed as part of my Bachelor of Science in Computer Science program at Southern New Hampshire University.
+This repository contains my CS-499 Computer Science Capstone ePortfolio from Southern New Hampshire University. The portfolio showcases the knowledge and skills I have gained throughout my computer science program, with a focus on software engineering, algorithms and data structures, and databases.
 
-The portfolio demonstrates the technical skills and knowledge I have gained throughout the program, with a focus on software engineering, algorithms and data structures, and database management.
+Throughout my education, I developed a particular interest in data analysis and data management. For my capstone, I wanted to use a project that would allow me to build on those interests while demonstrating the different skills I have learned.
 
-My primary career interests are data analysis and data management. Through this capstone, I have demonstrated my ability to evaluate an existing application, identify opportunities for improvement, implement enhancements, and test functionality.
+I selected my CS-340 Animal Shelter Dashboard because it involved several areas of computer science and had opportunities for improvement that I had considered when originally developing it. Through three enhancements, I was able to expand the application's functionality, improve how users search and organize information, and strengthen the way the database manages animal records.
 
 ## Technologies Used
 
@@ -25,15 +25,15 @@ My primary career interests are data analysis and data management. Through this 
 
 ## Capstone Project: Animal Shelter Dashboard
 
-For my capstone, I selected an Animal Shelter Dashboard originally developed in CS-340.
+The original Animal Shelter Dashboard was developed in CS-340 using Python, Dash, and MongoDB. The application displays animal shelter records through an interactive data table, pie chart, and map.
 
-The application uses Python, Dash, and MongoDB to display animal shelter records through an interactive data table, pie chart, and map.
-
-I completed a professional self-assessment, code review, and three enhancements to improve the application's functionality, usability, and data integrity.
+For my CS-499 capstone, I completed three enhancements to the original application. Each enhancement focused on a different area of computer science, but together they improved the overall functionality and reliability of the dashboard.
 
 ## Professional Self-Assessment
 
-My ePortfolio also includes a professional self-assessment reflecting on my academic journey, technical development, professional interests, and the skills I have gained throughout the Computer Science program.
+My ePortfolio also includes a professional self-assessment reflecting on my academic journey, the skills I have gained, and how my education has helped shape my professional interests.
+
+Although my academic journey is coming to an end, I plan to continue developing my skills, particularly in data analysis and data management.
 
 [Read My Professional Self-Assessment](https://k-bressler.github.io/CS-499-ePortfolio/#self-assessment)
 
@@ -41,13 +41,15 @@ My ePortfolio also includes a professional self-assessment reflecting on my acad
 
 ## Code Review
 
-As part of the capstone, I completed a code review of the original Animal Shelter Dashboard, identifying areas for improvement in software engineering, algorithms, and databases.
+Before completing the enhancements, I conducted a code review of my original CS-340 Animal Shelter Dashboard. During the review, I discussed the application's existing functionality, areas that could be improved, and the changes I planned to make for each of the three enhancement categories.
 
 [Watch My Code Review](https://youtu.be/IB9abakQKF0)
 
 ### Enhancement One: Software Engineering and Design
 
-Developed an animal management interface that allows users to add, update, and delete animal records directly through the dashboard.
+For my first enhancement, I created an animal management interface that allows users to add, update, and delete animal records directly through the dashboard.
+
+This expanded the original application's capabilities and provided a more convenient way for users to manage records without having to work directly within the database.
 
 **Key Improvements:**
 - Animal management interface
@@ -60,7 +62,9 @@ Developed an animal management interface that allows users to add, update, and d
 
 ### Enhancement Two: Algorithms and Data Structures
 
-Implemented advanced search functionality to improve how users retrieve and organize animal shelter records.
+For my second enhancement, I focused on improving how users search for and organize animal records. I added advanced search, filtering, and sorting options that allow users to narrow down records using multiple criteria.
+
+These changes made it easier to locate specific information within the dataset and gave users more control over the records being displayed.
 
 **Key Improvements:**
 - Multi-criteria search
@@ -73,7 +77,9 @@ Implemented advanced search functionality to improve how users retrieve and orga
 
 ### Enhancement Three: Databases
 
-Improved the reliability and integrity of the MongoDB database through schema validation, error handling, and testing.
+schema validation to enforce requirements for animal records, along with improved error handling.
+
+I also completed multiple tests to verify that valid database operations were successful while invalid operations were rejected. This enhancement helped strengthen my understanding of the importance of maintaining accurate and consistent data.
 
 **Key Improvements:**
 - MongoDB schema validation
@@ -84,7 +90,7 @@ Improved the reliability and integrity of the MongoDB database through schema va
 
 [View Enhancement Three](enhancement-three/)
 
-The published ePortfolio includes my professional self-assessment, code review, original and enhanced artifacts, enhancement narratives, and screenshots demonstrating the application's development.
+My published ePortfolio includes my professional self-assessment, code review, original and enhanced artifacts, enhancement narratives, and screenshots showing the progression of the Animal Shelter Dashboard.
 
 **[Visit My CS-499 ePortfolio](https://k-bressler.github.io/CS-499-ePortfolio/)**
 
