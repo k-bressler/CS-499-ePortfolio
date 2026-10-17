@@ -29,7 +29,21 @@ For my capstone, I selected an Animal Shelter Dashboard originally developed in 
 
 The application uses Python, Dash, and MongoDB to display animal shelter records through an interactive data table, pie chart, and map.
 
-I completed three enhancements to improve the application's functionality, usability, and data integrity.
+I completed a professional self-assessment, code review, and three enhancements to improve the application's functionality, usability, and data integrity.
+
+## Professional Self-Assessment
+
+My ePortfolio also includes a professional self-assessment reflecting on my academic journey, technical development, professional interests, and the skills I have gained throughout the Computer Science program.
+
+[Read My Professional Self-Assessment](https://k-bressler.github.io/CS-499-ePortfolio/#self-assessment)
+
+## View the Complete Portfolio
+
+## Code Review
+
+As part of the capstone, I completed a code review of the original Animal Shelter Dashboard, identifying areas for improvement in software engineering, algorithms, and databases.
+
+[Watch My Code Review](https://youtu.be/IB9abakQKF0)
 
 ### Enhancement One: Software Engineering and Design
 
@@ -69,20 +83,6 @@ Improved the reliability and integrity of the MongoDB database through schema va
 - Validation testing
 
 [View Enhancement Three](enhancement-three/)
-
-## Code Review
-
-As part of the capstone, I completed a code review of the original Animal Shelter Dashboard, identifying areas for improvement in software engineering, algorithms, and databases.
-
-[Watch My Code Review](https://youtu.be/IB9abakQKF0)
-
-## Professional Self-Assessment
-
-My ePortfolio also includes a professional self-assessment reflecting on my academic journey, technical development, professional interests, and the skills I have gained throughout the Computer Science program.
-
-[Read My Professional Self-Assessment](https://k-bressler.github.io/CS-499-ePortfolio/#self-assessment)
-
-## View the Complete Portfolio
 
 The published ePortfolio includes my professional self-assessment, code review, original and enhanced artifacts, enhancement narratives, and screenshots demonstrating the application's development.
 
