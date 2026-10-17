@@ -218,6 +218,56 @@
 }
 
 
+/* Capstone Project Overview */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-top: 25px;
+}
+
+.project-card {
+    display: block;
+    padding: 22px;
+    background-color: #f4f7fa;
+    border: 1px solid #dce5ed;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #25313c;
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.project-number {
+    color: #527b91;
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.project-card h4 {
+    color: #17324d;
+    margin: 12px 0;
+}
+
+.project-card p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+        
     </style>
 </head>
 
@@ -418,6 +468,47 @@
         and improvements are constantly evolving.
     </p>
 
+<h3>Capstone Project Overview</h3>
+
+<p>
+    My CS 499 capstone includes three enhancements to the
+    CS 340 Animal Shelter Dashboard, demonstrating how
+    software engineering, algorithms, and database management
+    work together to improve an application.
+</p>
+
+<div class="project-grid">
+
+    <a href="#enhancement-one" class="project-card">
+        <span class="project-number">01</span>
+        <h4>Software Engineering</h4>
+        <p>
+            Animal management interface with add,
+            update, and delete functionality.
+        </p>
+    </a>
+
+    <a href="#enhancement-two" class="project-card">
+        <span class="project-number">02</span>
+        <h4>Algorithms &amp; Data Structures</h4>
+        <p>
+            Advanced search, filtering, and
+            sorting capabilities.
+        </p>
+    </a>
+
+    <a href="#enhancement-three" class="project-card">
+        <span class="project-number">03</span>
+        <h4>Databases</h4>
+        <p>
+            MongoDB schema validation,
+            error handling, and testing.
+        </p>
+    </a>
+
+</div>
+
+    
 </section>
 
         <!-- Code Review -->
@@ -607,7 +698,7 @@
     </p>
 
     <p>
-        Seven tests were performed to verify that valid database
+        Several tests were performed to verify that valid database
         operations succeeded and invalid operations were rejected.
     </p>
 
