@@ -45,6 +45,19 @@
             font-size: 1.1rem;
         }
 
+        /* Circular Profile Photo */
+.profile-photo {
+    display: block;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center 30%;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 22px auto 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
         /* Navigation */
         nav {
             background-color: #10263b;
@@ -187,10 +200,15 @@
 <body>
 
     <header id="home">
-        <h1>Computer Science 499 ePortfolio</h1>
-        <p><strong>Kaitlin Bressler</strong></p>
-        <p>Computer Science Capstone</p>
-    </header>
+    <h1>Computer Science 499 ePortfolio</h1>
+
+    <img src="images/Prof20%Pic.JPG"
+         alt="Professional headshot of Kaitlin Bressler"
+         class="profile-photo">
+
+    <p><strong>Kaitlin Bressler</strong></p>
+    <p>Computer Science Capstone</p>
+</header>
 
     <nav>
         <a href="#home">Home</a>
